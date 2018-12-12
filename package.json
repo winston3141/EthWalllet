@@ -1,0 +1,26 @@
+{
+  "name": "etherium-test",
+  "version": "1.0.0",
+  "description": "Test code for Etherium Wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winston3141/EthWalllet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winston3141/EthWalllet/issues"
+  },
+  "homepage": "https://github.com/winston3141/EthWalllet#readme",
+  "dependencies": {
+    "ganache-cli": "^6.2.3",
+    "mocha": "^5.2.0",
+    "solc": "^0.4.17",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.35"
+  }
+}
